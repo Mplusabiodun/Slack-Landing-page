@@ -1,0 +1,209 @@
+body { background-color:black;
+  color: white;        
+}
+
+.height {
+height: 90vh;
+}
+
+.header { display: flex;
+flex-direction: row;
+padding-bottom: 45px;
+background-color: black;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 2;
+}
+
+.webdev { font-size:18px;
+font-family: 'comic san', sans-serif;
+color: rgb(16, 185, 129);
+cursor: pointer;
+margin: 50px 0px 0px 55px;
+}
+
+.nav-bar {display: flex;
+flex-direction: row;
+margin-left: 700px;
+margin-top: 50px;
+}
+
+.nav-link {cursor: pointer;
+font-size:15px;
+font-family:sans-serif;
+color: rgb(16, 185, 129);
+text-decoration: none;
+font-weight: bold;
+margin-left: 65px;
+}
+
+.features {
+border-bottom: 4px rgb(16, 185, 129) solid;
+padding-bottom: 10px;
+}
+
+.how , .pricing {
+color: white;
+}
+
+.features:hover {
+color: white;
+}
+
+.how:hover, .pricing:hover {
+color: rgb(16, 185, 129);
+}
+
+.form {display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 100px;
+}
+
+.text {
+font-size: 48px;
+margin: 130px 0px 5px 0px;
+font-weight: bold;
+font-family:sans-serif;
+}
+
+.email {
+width: 29%;
+text-align: center;
+height: 7vh;
+border-radius: 5px;
+font-size: 15px;
+color: rgba(0, 0, 0, .1);
+}
+
+.get {
+background-color:rgb(10, 187, 134) ;
+width: 11%;
+height: 7vh;
+text-align: center;
+border-radius: 5px;
+font-size: 1em;
+color: rgba(0, 0, 0, .7);
+}
+
+.premium-together, .fast-together, .quality-together {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.pfq {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5px auto;
+width: 70%;
+}
+
+.premium-materials, .fast-shipping, .quality-assurance {
+width:9%;
+height: 12vh;
+margin-right: 65px;
+color: rgb(16, 185, 129);
+}
+
+div h3 {
+font-weight:bold;
+font-size: 1.9em;
+font-family: 'Arial';
+margin-bottom: 0px;
+}
+
+p { color: rgba(255, 255, 255, .6);
+font-size: 20px;
+font-family: 'comic san';
+}
+
+.video { margin:10px auto;
+display: flex;
+justify-content: center;
+border: 1px rgb(189, 20, 20) solid;
+width: 50%; height: 50vh;
+margin-top: 130px;
+margin-bottom: 130px;
+}
+
+.price { display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.tenor { color:black;
+text-align:center;
+background-color: rgb(255, 255, 255, 0.9);
+padding: 50px 100px 50px 100px;
+margin: 20px auto;
+border-radius: 13px;
+}
+
+.tenor h3 { font-family: 'lucida console';
+font-weight: bold;
+
+}
+
+.tenor p { color: black;
+line-height:2.5em;
+font-family: 'Tahoma', sans-serif;
+font-size: 18px;
+}
+
+.select {
+background-color:rgb(10, 187, 134) ;
+width: 65%;
+height: 7vh;
+text-align: center;
+border-radius: 5px;
+font-size: 1em;
+color: rgba(0, 0, 0, .7);
+}
+
+.copy {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+font-size: 16px;
+font-family: sans-serif;
+line-height: 0.9em;
+margin-top: 70px;
+}
+
+.privacy {
+word-spacing: 10px;
+}
+
+@media screen and (max-width:375px) {
+body {
+  background-color: blue;
+}
+.webdev { font-size:45px;
+font-family: 'comic san', sans-serif;
+color: white;
+margin: 50px 0px 0px 55px;
+}     
+.header { display: flex;
+flex-direction: row;
+padding-bottom: 45px;
+background-color: red;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+}
+
+.text { color: yellow;
+font-size: 38px;
+margin: 130px 0px 5px 0px;
+font-weight: bold;
+font-family:sans-serif;
+}
+}

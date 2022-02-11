@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Product Landing Page</title>
+        <link rel="stylesheet" href="./SLACK Landingpagechalenge.css">
+        <script src="https://kit.fontawesome.com/3a11c0ef26.js" crossorigin="anonymous"></script>
+       <style>
+           body { background-color:black;
+    color: white;        
+ }
+
+.height {
+height: 90vh;
+}
+
+.header { display: flex;
+flex-direction: row;
+padding-bottom: 45px;
+background-color: black;
+position: fixed;
+top: 0;
+right: 0;
+left: 0;
+z-index: 2;
+}
+
+.webdev { font-size:18px;
+font-family: 'comic san', sans-serif;
+color: rgb(16, 185, 129);
+cursor: pointer;
+margin: 50px 0px 0px 55px;
+}
+
+.nav-bar {display: flex;
+flex-direction: row;
+margin-left: 700px;
+margin-top: 50px;
+}
+
+.nav-link {cursor: pointer;
+font-size:15px;
+font-family:sans-serif;
+color: rgb(16, 185, 129);
+text-decoration: none;
+font-weight: bold;
+margin-left: 65px;
+}
+
+.features {
+border-bottom: 4px rgb(16, 185, 129) solid;
+padding-bottom: 10px;
+}
+
+.how , .pricing {
+color: white;
+}
+
+.features:hover {
+color: white;
+}
+
+.how:hover, .pricing:hover {
+color: rgb(16, 185, 129);
+}
+
+.form {display: flex;
+flex-direction: column;
+align-items: center;
+margin-top: 100px;
+}
+
+.text {
+font-size: 48px;
+margin: 130px 0px 5px 0px;
+font-weight: bold;
+font-family:sans-serif;
+}
+
+.email {
+width: 29%;
+text-align: center;
+height: 7vh;
+border-radius: 5px;
+font-size: 15px;
+color: rgba(0, 0, 0, .1);
+}
+
+.get {
+background-color:rgb(10, 187, 134) ;
+width: 11%;
+height: 7vh;
+text-align: center;
+border-radius: 5px;
+font-size: 1em;
+color: rgba(0, 0, 0, .7);
+}
+
+.premium-together, .fast-together, .quality-together {
+display: flex;
+flex-direction: row;
+align-items: center;
+}
+
+.pfq {
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+margin: 5px auto;
+width: 70%;
+}
+
+.fas {
+width:24%;
+height: 18vh;
+margin-right: 15px;
+color: rgb(16, 185, 129);
+}
+
+div h3 {
+font-weight:bold;
+font-size: 1.9em;
+font-family: 'Arial';
+margin-bottom: 0px;
+}
+
+p { color: rgba(255, 255, 255, .6);
+font-size: 20px;
+font-family: 'comic san';
+}
+
+.video { margin:10px auto;
+display: flex;
+justify-content: center;
+border: 1px rgb(189, 20, 20) solid;
+width: 50%; height: 50vh;
+margin-top: 130px;
+margin-bottom: 130px;
+}
+
+.price { display: flex;
+flex-direction: row;
+justify-content: center;
+
+}
+
+.tenor { color:black;
+text-align:center;
+background-color: rgb(255, 255, 255, 0.9);
+padding: 50px 100px 50px 100px;
+margin: 20px auto;
+border-radius: 13px;
+}
+
+.tenor h3 { font-family: 'lucida console';
+font-weight: bold;
+
+}
+
+.tenor p { color: black;
+line-height:2.5em;
+font-family: 'Tahoma', sans-serif;
+font-size: 18px;
+}
+
+.select {
+background-color:rgb(10, 187, 134) ;
+width: 65%;
+height: 7vh;
+text-align: center;
+border-radius: 5px;
+font-size: 1em;
+color: rgba(0, 0, 0, .7);
+}
+
+.copy {
+display: flex;
+flex-direction: column;
+align-items: center;
+color: white;
+font-size: 16px;
+font-family: sans-serif;
+line-height: 0.9em;
+margin-top: 70px;
+}
+
+.privacy {
+ word-spacing: 10px;
+}
+
+@media screen and (max-width: 500px){
+#main {
+    background-color: blue;
+}
+
+.webdev { font-size:45px;
+font-family: 'comic san', sans-serif;
+color: white;
+margin: 50px 0px 0px 55px;
+}   
+
+}
+       </style>
+    
+</head>
+    <body id="main">
+    <div class="height">
+        <header class="header">
+            <h4 class="webdev">WebDev.</h4>
+             
+             <nav class="nav-bar">
+                     <a class=" nav-link features" class="nav-link" href="#features">Features</a>
+                     <a class="nav-link how" href="#how-it-works">How It Works</a>
+                     <a class="nav-link pricing" href="#pricing">Pricing</a>                
+             </nav>
+         </header>
+         
+         <form class="form" action="https://www.freecodecamp.com/email-submit)">
+             <h2 id="features" class="text"><strong>Handcrafted, home-made masterpieces</strong></h2> <br>
+        <input class="email" type="email" placeholder="Enter Your Email Address" required><br>
+        <input class="get" type="submit" value="Get Started">
+         </form>
+    </div>    
+    
+        <div class="pfq">
+            <Section class="premium-together">
+                <i class="fas fa-fire fa-3x" alt="premium material image"></i>
+                <!--<img class="premium-materials" src="https://fontawesome.com/v5.15/icons/fire?style=solid"></i>">-->
+            <div class="premium"><h3>Premium Materials</h3>
+                <p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+            </div>
+            </Section>
+            
+            <!--C:\Users\Pc1\Pictures/flame.png <i class= 'fas fa-flame fa-3x></i>-->
+
+        
+            <section class="fast-together">
+                <i class="fas fa-shopping-cart fa-3x" alt="shipping van"></i>
+                    <!--<img class="fast-shipping" src="C:\Users\Pc1\Pictures/shipping.png" alt="shipping van">-->
+                    <div id="fast"><h3>Fast Shipping</h3>
+                        <p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if
+                           you are not satisfied.</p></div>
+            </section>
+            
+            <section class="quality-together">
+                <i class="fas fa-battery-full fa-3x" alt="Quality Assurance battery"></i>
+                <!--<img class="quality-assurance" src="C:\Users\Pc1\Pictures/battery full.png" alt="Quality Assurance battery">-->
+            <div id="quality"><h3>Quality Assurance</h3>
+                <p id="how-it-works">For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of
+                     your instrument.</p></div>
+            </section>
+        
+        </div>
+
+        <div >
+            <video class="video" controls> <source src="https://youtu.be/y8Yv4pnO7qc" type="video"></video>
+        </div>
+        
+        <div  class="price">
+            
+        
+                <div id="pricing" class="tenor">
+                    <h3 class="blue">TENOR<br>TROMBONE</h3>
+                    <p>$600</p>
+                    <p>Lorem ipsum. <br>
+                       Lorem ipsum. <br>
+                       Lorem ipsum dolor. <br>
+                       Lorem ipsum.</p>
+                       <input class="select" type="submit" value="SELECT">
+                </div>
+        
+                <div class="tenor">
+                  <h3 class="blue">TENOR<br>TROMBONE</h3>
+                  <p>$600</p>
+                  <p>Lorem ipsum. <br>
+                    Lorem ipsum. <br>
+                    Lorem ipsum dolor. <br>
+                    Lorem ipsum.</p>
+                    <input class="select" type="submit" value="SELECT">
+                </div>
+        
+                <div class="tenor">
+                    <h3 class="blue">TENOR<br>TROMBONE</h3>
+                    <p>$600</p>
+                    <p>Lorem ipsum. <br>
+                        Lorem ipsum. <br>
+                        Lorem ipsum dolor. <br>
+                        Lorem ipsum.</p>
+                        <input class="select" type="submit" value="SELECT">
+                </div>
+             
+
+        </div>
+            
+        
+            <div>
+                <p class="copy"><span class="privacy">Privacy Terms Contact</span> <br>
+                Copyright 2016, Original Trombones</p>
+            </div>
+    </body>
+</html>
